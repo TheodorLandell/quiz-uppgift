@@ -19,6 +19,49 @@ Liverpool FC Quiz är en webbaserad applikation som innehåller 15 utmanande fr�
 - ✅ Responsiv design (fungerar på mobil och desktop)
 - ✅ Liverpool-tema med röda färger genomgående
 
+🛠️ Tekniker som använts
+Frontend
+
+HTML5 - Semantisk markup
+CSS3 - Custom animations
+JavaScript (ES6 Modules) - Modern JavaScript med import/export
+Tailwind CSS - Utility-first CSS framework för styling
+
+Arkitektur
+
+Separation of Concerns - Uppdelad i moduler:
+
+main.js - Event handling och orkestrering
+quiz.js - Affärslogik (validering, poängräkning, state management)
+ui.js - UI-rendering och DOM-manipulation
+questions.js - Datalagring (frågor och svar)
+
+
+
+Verktyg
+
+Git & GitHub - Versionshantering
+VS Code - Utvecklingsmiljö
+Live Server - Lokal utvecklingsserver
+Netlify - Deployment och hosting
+
+📁 Projektstruktur
+liverpool-quiz/
+├── index.html              # Huvudfil med HTML-struktur
+├── README.md               # Projektdokumentation
+└── src/
+    ├── main.js             # Event listeners och koppling mellan moduler
+    └── modules/
+        ├── questions.js    # 15 Liverpool-frågor med svar
+        ├── quiz.js         # Affärslogik (state, validering, poäng)
+        └── ui.js           # UI-funktioner (render, feedback, vyer)
+🎨 Design
+Färgschema (Liverpool-tema)
+
+Primär: #991B1B (red-800) - Mörkröd
+Sekundär: #B91C1C (red-700) - Liverpool-röd
+Accent: #FDE047 (yellow-300) - Gul för procent
+Bakgrund: Gradient från red-700 → red-600 → red-800
 
 ## 📝 Reflektion (150-250 ord)
 
